@@ -3,8 +3,9 @@
     "version": "1.0.0",
     "scripts": {
         "install-all": "cd server && npm install && cd ../client && npm install",
+        "build": "cd client && npm install && npm run build",
+        "start": "cd server && npm install && node index.js",
         "dev:server": "cd server && npm run dev",
-        "dev:client": "cd client && npm run dev",
-        "build": "cd client && npm run build"
+        "dev:client": "cd client && npm run dev"
     }
 }
